@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 7878
 
 app.get('/data/2.5/weather', get_weather)
 
