@@ -1,0 +1,25 @@
+{
+   "note":"This is a sample config file. You should change the mockDirectory to a more reasonable path.",
+   "mockDirectory":"/home/ec2-user",
+   "quiet":false,
+   "port":"7878",
+   "latency":50,
+   "logRequestHeaders":false,
+   "allowedHeaders":[
+      "Content-Type",
+      "my-custom-header"
+   ],
+   "corsCredentials":"true",
+   "webServices":{
+      "data/2.5/weather":{
+         "mockFile":"assignment2.json",
+         "latency":20,
+         "verbs":[
+            "get"
+         ],
+         "alternatePaths":[
+            "1st"
+         ]
+      }
+   }
+}
