@@ -127,6 +127,8 @@ paths:
           examples:
             application/json:
               message: Hi! I hope you have a nice day :)
+        "400":
+          description: "Invalid entry"
 definitions:
   User:
     type: "object"
