@@ -73,5 +73,8 @@ var password = request.body.password;
 
 
 
-response.json({"mock_token" : "my secret token"})
+ response.json({
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IlNkYXNpbmkiLCJpYXQiOjE1MTYyMzkwMjJ9.rF-81Znb7F3sszzrBmLa4QYBLVNCpAKsiQQH8Ziobo4",
+        "expires": "2012-04-23T18:25:43.511Z"
+      })
 }
